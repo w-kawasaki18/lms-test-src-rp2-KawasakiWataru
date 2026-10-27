@@ -36,7 +36,7 @@ public class Case01 {
 	@Order(1)
 	@DisplayName("テスト01 トップページURLでアクセス")
 	void test01() {
-		//トップページにアクセス
+		//トップページへアクセス
 		goTo("http://localhost:8080/lms/");
 
 		//画面表示
@@ -46,4 +46,5 @@ public class Case01 {
 		getEvidence(new Object() {
 		});
 	}
+
 }
