@@ -149,6 +149,9 @@ public class Case06 {
 		assertEquals("Q.事業所が変わった場合、何かしら手続きをする必要がありますか？", questions.get(1).getText());
 		assertEquals("Q.助成金書類の作成方法が分かりません", questions.get(2).getText());
 
+		//検索結果までスクロール
+		scrollTo("500");
+
 		// エビデンスを取得する
 		getEvidence(new Object() {
 		});
